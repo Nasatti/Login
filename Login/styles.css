@@ -1,0 +1,89 @@
+html,
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    height: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding: 40px;
+}
+input[type=text],[type=date],[type=email],[type=password]{
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #add;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: #4CAF50;
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+.Contacts{
+    align-items: left;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    background-color: #4CAF50;
+}
+.center_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    background-color: red;
+}
+.img{
+    position: absolute;
+    left:var()
+}
+.right{
+    text-align: right;
+}
+.button{
+    background-color: #4CAF50;
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
